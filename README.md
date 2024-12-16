@@ -1,5 +1,6 @@
 # Metadata-Extractor
 It does just that, It extracts metadata from a file
+
 Enhanced File Metadata Extractor
 
 This is a Python tool that allows you to extract metadata from files and export it in either CSV or JSON formats. The tool supports multiple files and includes the option to check file integrity based on a known hash value. The metadata extraction includes information such as file name, size, creation time, modification time, access time, and SHA256 hash. It is my hope that this can be expanded into something much larger, with more tools readily avaliable to make comparison of data much easier for the analyst. I am also completely open to new ideas as I feel that this is a project that has unlimited manuverability and can be shaped in infinitely different ways.
