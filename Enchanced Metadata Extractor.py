@@ -21,7 +21,7 @@ def get_file_hash(file_path, hash_type="sha256"):
         return None
 
 # Function to get file size in human-readable format
-def get_human_readable_size(file_size):
+def get_size(file_size):
     for unit in ['B', 'KB', 'MB', 'GB', 'TB']:
         if file_size < 1024.0:
             return f"{file_size:.2f} {unit}"
@@ -68,7 +68,7 @@ def extract_metadata():
                 "File Name": file_name,
                 "File Path": file_path,
                 "File Extension": file_extension,
-                "File Size": get_human_readable_size(file_size),
+                "File Size": get_size(file_size),
                 "Creation Time": creation_time,
                 "Last Modified Time": modified_time,
                 "Last Access Time": access_time,
